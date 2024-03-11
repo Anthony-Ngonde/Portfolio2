@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+}
+
+.hero{
+  height: 100vh;
+  background-image: url(images/anto.jpg);
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo{
+  cursor: pointer;
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: black
+}
+  
+  
+  
+  
+  
+
+span{
+  color: #f9004d;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover{
+  color: black
+  
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+
+}
+h1{
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 55px;
+}
+
+h3{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+h4{
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #fcfcfc
+  }
+  .newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+
+  }
+
+  .newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    border-radius: 30px;
+  }
+
+  .newslatter form input:last-child{
+    position: absolute;
+    display: inline;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+  }
+
+  .about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+  }
+
+  .about-text{
+    width: 550px;
+  }
+
+  .main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .hm{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+
+  .about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    }
+
+    .about-text p{
+      color: white;
+      letter-spacing: 1px;
+      line-height: 28px;
+      font-size: 18px;
+      margin-bottom: 45px;
+    }
+
+    .skills{
+      background: #101010;
+      width: 100%;
+      padding: 100px 0px;
+
+    }
+    .title h2{
+      color: white;
+      font-size: 75px;
+      width: 1130px;
+      margin: 30px auto;
+     
+    }
+
+    .title p{
+      color: white;
+      letter-spacing: 1px;
+      line-height: 28px;
+      font-size: 18px;
+      margin-bottom: 45px;
+      margin-left: 2px;
+      margin-left: 5px;
+      
+    }
+
+    .portfolio-class{
+      height: 400px;
+      width: 400px;
+      object-fit: contain;
+      margin-top: 0px;
+    }
+
+    .first-bar {
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+    .last-bar {
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+    .email-bar {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      display: block;
+      margin-top: 10px;
+      padding-right: 175px;
+    }
+    .sign-class {
+      margin-top: 10px;
+      color: white;
+      background-color: blue;
+      border: none;
+
+      margin-right: 200px;
+      padding-left: 110px;
+      padding-right: 110px;
+      font-size: 15px;
+      font-weight: bold;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-top: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      padding-right: 145px;
+      padding-left: 145px;
+    }
+    .sign-class:hover{
+      opacity: 0.6;
+    }
+    .sign-class:active{
+      opacity: 0.4;
+    }
